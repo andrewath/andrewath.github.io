@@ -1,7 +1,9 @@
 body {
-    background-color: #d3d3d3;
+    background-color: #fafafa;
+    text-align: center;
 }
 h1 {
+    font-family: open-sans sans-serif;
     color: navy;
     margin-left: 40px;
 }
