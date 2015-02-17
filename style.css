@@ -4,6 +4,13 @@ body {
 }
 h1 {
     font-family: sans-serif;
-    color: navy;
-    
+    font-weight: lighter;
+    font-size: 48px;
+    color: #1a1a1a;   
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24px
+    color: #b4b4b4;
 }
