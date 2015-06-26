@@ -1,42 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
 
-
-body {
-    background-color: #66eece;
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 80px;
+html, body {
+    height: 100%;
     
 }
+
 h1 {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
     color: #101137;
     margin-bottom: 10px;
 }
+
 h2 {
-    font-family: sans-serif;
-    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 16px;
-    color: #101137;
+    color: #30e8bd;
     margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
 }
 
 .pipepadding {
     padding-left: 5px;
     padding-right: 5px;
+    color: #30e8bd;
 }
 
-.block {
-    background-color: #1a1a1a;
+.blockone, .blocktwo {
+    background-color: #66eece;
+    /*#101137-navy, #30e8bd-darkergreen*/
+    width: 12px;
+    height: 100%;
+    position: fixed;
+}
+
+.blockone {
+    left: 0;
+}
+
+.blocktwo {
+    right: 0;
+}
+
+.me {
+    /*height: 100%;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-top: 80px;
+    height: 100%;
 }
 
 
 
-a:link    {color:#ffffff; background-color:transparent; text-decoration:none}
-a:visited {color:#ffffff; background-color:transparent; text-decoration:none}
-a:hover   {color:#1a1a1a; background-color:transparent; text-decoration:underline}
-a:active  {color:#b4b4b4; background-color:transparent; text-decoration:underline}
+a:link    {color:#30e8bd; background-color:transparent; text-decoration:none}
+a:visited {color:#30e8bd; background-color:transparent; text-decoration:none}
+a:hover   {color:#16c79e; background-color:transparent; text-decoration:underline}
+a:active  {color:#30e8bd; background-color:transparent; text-decoration:underline}
