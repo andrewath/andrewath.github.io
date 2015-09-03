@@ -10,18 +10,18 @@ html, body {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    color: #101137;
+    font-weight: 100;
+    font-size: 32px;
+    color: #f2f2f2;
     margin-bottom: 10px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #30e8bd;
-    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 24px;
+    color: #30f8cd;
+    margin-bottom: 12px;
 }
 
 .container {
@@ -54,18 +54,18 @@ h2 {
 .me {
     /*height: 100%;*/
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 100;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #272822;
     padding-top: 80px;
     height: 100%;
 }
 
 
 
-a:link    {color:#30e8bd; background-color:transparent; text-decoration:none}
-a:visited {color:#30e8bd; background-color:transparent; text-decoration:none}
-a:hover   {color:#16c79e; background-color:transparent; text-decoration:underline}
-a:active  {color:#30e8bd; background-color:transparent; text-decoration:underline}
+a:link    {color:#30f8cd; background-color:transparent; text-decoration:none}
+a:visited {color:#30f8cd; background-color:transparent; text-decoration:none}
+a:hover   {color:#2eedbf; background-color:transparent; text-decoration:underline}
+a:active  {color:#30f8cd; background-color:transparent; text-decoration:underline}
